@@ -12,14 +12,18 @@
   <link rel="icon" type="image/png" href="./assets/icon.png">
   <link rel="stylesheet" href="/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
-  <title>Music player</title>
+  <title>Music Player</title>
 </head>
 <body>
   <div class="player">
-    <img src="https://images.unsplash.com/photo-1561212044-bac5ef688a07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="">
+    <div class="img-song">
+      <img
+        src=""
+        alt="">
+    </div>
     <div class="song-info">
-      <h1>Uma música legal</h1>
-      <p>Uma banda dahora</p>
+      <h1></h1>
+      <p></p>
     </div>
     <div class="controls">
       <div class="repeat">
@@ -28,7 +32,7 @@
       <div class="prev">
         <i class="fa-solid fa-backward fa-xl"></i>
       </div>
-      <div class="play">
+      <div class="play-pouse">
         <i class="fa-solid fa-play fa-xl"></i>
       </div>
       <div class="next">
@@ -44,7 +48,11 @@
         <div class="current">2:11</div>
         <div class="duration">3:12</div>
       </div>
+      <audio id="main-audio" src=""></audio>
     </div>
   </div>
+
+  <script src="javaScript/musicList.js"></script>
+  <script src="javaScript/main.js"></script>
 </body>
 </html>
