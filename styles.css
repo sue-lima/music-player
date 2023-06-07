@@ -30,6 +30,10 @@ body * {
   margin-bottom: 20px;
 }
 
+#btn:hover {
+  color: #695190;
+}
+
 .player {
   width: 380px;
   position: relative;
@@ -96,6 +100,26 @@ body * {
 
 .controls.up-down {
   margin-top: 28px;
+}
+
+.repeat:hover {
+  color: #695190;
+}
+
+.prev:hover {
+  color: #695190;
+}
+
+.play-pouse:hover {
+  color: #695190;
+}
+
+.next:hover {
+  color: #695190;
+}
+
+.music-list:hover {
+  color: #695190;
 }
 
 .progress-music {
@@ -214,6 +238,10 @@ body * {
 
 .music-playlist ul li .row span {
   font-size: 19px;
+}
+
+#close:hover {
+  color: #b4b4dd;
 }
 
 ul li .row p {
