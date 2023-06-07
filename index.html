@@ -5,6 +5,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,42 +17,57 @@
 </head>
 <body>
   <div class="player">
-    <div class="img-song">
-      <img
-        src=""
-        alt="">
+    <div id="btn">
+      <i class="fa-solid fa-sort-up fa-2xl" title="Minimizar player"></i>
     </div>
-    <div class="song-info">
-      <h1></h1>
-      <p></p>
-    </div>
-    <div class="controls">
-      <div class="repeat">
-        <i class="fa-solid fa-repeat fa-xl"></i>
+    <div class="album">
+      <div class="img-song">
+        <img src="" alt="" class="cover-img">
       </div>
-      <div class="prev">
-        <i class="fa-solid fa-backward fa-xl"></i>
-      </div>
-      <div class="play-pouse">
-        <i class="fa-solid fa-play fa-xl"></i>
-      </div>
-      <div class="next">
-        <i class="fa-solid fa-forward fa-xl"></i>
-      </div>
-      <div class="music-list">
-        <i class="fa-solid fa-list fa-xl"></i>
+      <div class="song-info">
+        <h1 class="music-name"></h1>
+        <p class="artist-name"></p>
       </div>
     </div>
     <div class="progress-music">
       <div class="progress-bar"></div>
       <div class="time">
-        <div class="current">2:11</div>
-        <div class="duration">3:12</div>
+        <div class="current"></div>
+        <div class="duration"></div>
       </div>
       <audio id="main-audio" src=""></audio>
     </div>
+    <div class="controls">
+      <div class="repeat">
+        <i id="repeat" class="material-icons" title="Repetir uma faixa">
+          repeat
+        </i>
+      </div>
+      <div class="prev" title="Voltar">
+        <i class="fa-solid fa-backward fa-xl"></i>
+      </div>
+      <div class="play-pouse" title="Play">
+        <i class="fa-solid fa-play fa-xl"></i>
+      </div>
+      <div class="next" title="Avançar">
+        <i class="fa-solid fa-forward fa-xl"></i>
+      </div>
+      <div class="music-list" title="Fila de músicas">
+        <i class="fa-solid fa-list fa-xl"></i>
+      </div>
+    </div>
   </div>
-
+  <div class="music-playlist" >
+    <div class="header">
+      <div class="row">
+        <i class="fa-solid fa-music fa-xl"></i>
+        <span class="title-music">Playlist</span>
+      </div>
+      <i id="close" class="fa-solid fa-xmark fa-xl" title="Fechar"></i>
+    </div>
+    <ul>
+    </ul>
+  </div>
   <script src="javaScript/musicList.js"></script>
   <script src="javaScript/main.js"></script>
 </body>
