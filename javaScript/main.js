@@ -5,6 +5,7 @@ songInfos = player.querySelector(".song-info"),
 musicName = player.querySelector(".music-name"),
 musicArtist = player.querySelector(".artist-name"),
 musicAudio = player.querySelector("#main-audio"),
+controlsButton = player.querySelector(".controls"),
 playPauseButton = player.querySelector(".play-pouse"),
 prevButton = player.querySelector(".prev"),
 nextButton = player.querySelector(".next"),
@@ -25,6 +26,7 @@ minButton.addEventListener("click", ()=> {
   musicName.classList.toggle("up-down");
   musicArtist.classList.toggle("up-down");
   progressMusicTime.classList.toggle("up-down");
+  controlsButton.classList.toggle("up-down");
   musicList.classList.toggle("up-down");
   if(musicAlbum.classList.contains('up-down')) {
     minButton.innerHTML = "<i class='fa-solid fa-sort-down fa-2xl'></i>";
@@ -48,6 +50,7 @@ function loadingMusic(indexNumb) {
 
 function playMusic() {
   player.classList.add("paused");
+  musicImg.classList.add("pulse-img");
   playPauseButton.innerHTML = "<i class='fa-solid fa-pause fa-xl'></i>";
   playPauseButton.setAttribute("title", "Pausar");
   musicAudio.play();
@@ -55,6 +58,7 @@ function playMusic() {
 
 function pauseMusic() {
   player.classList.remove("paused");
+  musicImg.classList.remove("pulse-img");
   playPauseButton.innerHTML = "<i class='fa-solid fa-play fa-xl'></i>";
   musicAudio.pause();
 }
