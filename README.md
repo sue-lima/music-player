@@ -4,7 +4,7 @@
 ![linguagens](https://img.shields.io/github/languages/count/sue-lima/music-player)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/sue-lima/music-player/blob/main/LICENSE)
 
-![demo](https://github.com/sue-lima/music-player/assets/54121204/f29786a9-4fe9-48ff-bf80-98ac45effefc)
+![demo](https://github.com/sue-lima/music-player/assets/54121204/617c2193-fe4b-4935-8682-6481e51acbf9)
 
 ## 🔖 About
 
@@ -19,6 +19,6 @@ Music Player is an application inspired by the #boraCodar challenge by Rocketsea
 - __Material Icons__
 
 ## 🚀 Demo
-![gifDemo](https://github.com/sue-lima/music-player/assets/54121204/74f61a67-7ee5-4ecd-8a39-29646bada1a7)
+![gifDemo](https://github.com/sue-lima/music-player/assets/54121204/3c2872a8-494a-477e-baca-ff07c06abf7b)
 
 Made with ❤️ by <a href="https://www.linkedin.com/in/suelen-ferreira-de-lima-b3b97073/">Sue Lima</a>
