@@ -19,6 +19,6 @@ Music Player is an application inspired by the #boraCodar challenge by Rocketsea
 - __Material Icons__
 
 ## 🚀 Demo
-![gifDemo](https://github.com/sue-lima/music-player/assets/54121204/3c2872a8-494a-477e-baca-ff07c06abf7b)
+![gifDemo](https://github.com/sue-lima/music-player/assets/54121204/9c6d39cf-8697-4aab-a628-13ebb3eb8cf1)
 
 Made with ❤️ by <a href="https://www.linkedin.com/in/suelen-ferreira-de-lima-b3b97073/">Sue Lima</a>
